@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8088e141-3d85-4965-a3cc-d52fa59f0be6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Translator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Translation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/YandexResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Translator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <workItem from="1678827357761" duration="1453000" />
       <workItem from="1678912828125" duration="1696000" />
       <workItem from="1678980437749" duration="2106000" />
-      <workItem from="1679070836857" duration="2686000" />
+      <workItem from="1679070836857" duration="3388000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1678827409266</created>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678999608049</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Json Translate">
+      <created>1679073710568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679073710568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +109,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Response" />
     <MESSAGE value="PostResponse" />
-    <option name="LAST_COMMIT_MESSAGE" value="PostResponse" />
+    <MESSAGE value="Json Translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json Translate" />
   </component>
 </project>

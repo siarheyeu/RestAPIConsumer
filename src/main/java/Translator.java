@@ -2,6 +2,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.example.YandexResponse;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -31,12 +32,10 @@ public class Translator  {
         jsonData.put("texts", "[" + sentenceToTranslate +"]");
 
         HttpEntity<Map<String, String>> request = new HttpEntity<>(jsonData, headers);
-        String response = restTemplate.postForObject(url, request, String.class);
+        YandexResponse response= restTemplate.postForObject(url, request, YandexResponse.class);
 
-        //Парсим полученный JSON с помощью Jackson
-        ObjectMapper mapper = new ObjectMapper();
-        JsonNode obj = mapper.readTree(response);
 
-        System.out.println("Перевод: " + obj.get("translations").get(0).get("text"));
+
+        System.out.println("Перевод: " + response.getTranslations().get(0).getText());
     }
 }
